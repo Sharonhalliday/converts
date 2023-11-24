@@ -1,17 +1,17 @@
 $document.ready(function () {
 //function to fahrenheit
-function toFah(a){
+function toFahrenheit(a){
    return a * 9/5 + 32;
 }
-const a =parseInt(prompt("enter number"));
-const result = toFah(a);
+const a = parseInt(prompt("enter number"));
+let result = toFahrenheit(a);
 alert(result);
 
-//function toCelsius(a){
-   function toCel(a){
+//function toCelsius
+   function toCelsius(b){
     return a - 32 * 5/9;
 }
-const a =parseInt(prompt("enter number"));
-const result = toCel(a);
-alert(result);
+const b =parseInt(prompt("enter number"));
+let output = toCelsius(b);
+alert(output);
 })
